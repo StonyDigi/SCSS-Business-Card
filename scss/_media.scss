@@ -1,0 +1,49 @@
+@media(max-width: 930px){
+
+    body{
+
+        overflow: auto;
+    }
+
+    .container{
+
+        max-width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 200px;
+        height: auto;
+        
+        .img-bg{
+
+            border-radius: 8px 8px 0 0;
+
+            &:after{
+
+                border-radius: 8px 8px 0 0;
+            }
+        }
+
+        .content h1{
+
+            font-size: 1.8rem;
+
+            
+        }
+
+        .content .grid{
+
+            grid-template-columns: 1fr;
+            display: block;
+    
+            div{
+
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    
+}
